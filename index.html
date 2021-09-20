@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Автосервис на Батыршина</title>
+  <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <!-- header start -->
+  <header class="header">
+    <div class="container header-page">
+      <h1 class="header__title">АВТОСЕРВИС НА БАТЫРШИНА</h1>
+      <div class="header-page__footer">
+        <div class="header-page__hamburger">
+        <button class="btn-menu" type="button">
+          <span class="btn-menu__box">
+            <span class="btn-menu__inner">
+            </span>
+          </span>
+        </button>
+      </div>
+        <div class="header-page__start">
+          <nav class="header-page__nav">
+            <ul class="header__ul">
+              <li class="header-page__li">
+                <a href="" class="header-page__link">
+                  <span class="header-page__text">Главная</span>
+                </a>
+              </li>
+              <li class="header-page__li">
+                <a href="" class="header-page__link">
+                  <span class="header-page__text">Услуги</span>
+                </a>
+              </li>
+              <li class="header-page__li">
+                <a href="" class="header-page__link">
+                  <span class="header-page__text">Записаться</span>
+                </a>
+              </li>
+              <li class="header-page__li">
+                <a href="" class="header-page__link">
+                  <span class="header-page__text">Галерея</span>
+                </a>
+              </li>
+              <li class="header-page__li">
+                <a href="" class="header-page__link">
+                  <span class="header-page__text">О нас</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-page__end">
+          <div class="contacts_items">
+            <h3 class="contacts_title">Адрес</h3>
+            <p class="contacts_text">ул.Батыршина 28/1 г.Казань</p>
+          </div>
+          <div class="contacts_items">
+            <h3 class="contacts_title">Телефон</h3>
+            <p class="contacts_text">
+              <a href="tel:+79950955790" class="contact_phone">+7 995 095 57 90</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- stock start -->
+  <section class="stock">
+    <div class="slider-body ">
+      <h2>Забери свою акцию</h2>
+      <div class="flex-wrapper ">
+        <div class="slider-wrapper container">
+          <div class="slide active">
+            <div class="slider-stock">
+              <div class="slider-stock__title">Установи автозапуск</div>
+              <div class="slider-stock__item">Со скидкой до 10%</div>
+            </div>
+            <img class="slider-stock__img" src="img-stock/start2.jpeg" alt="">
+          </div>
+          <div class="slide">
+            <div class="slider-stock">
+              <div class="slider-stock__title">Определение местоположения</div>
+              <div class="slider-stock__item">Скидка на GPS трекер 15%</div>
+            </div>
+            <img class="slider-stock__img" src="img-stock/monitoring.jpeg" alt="">
+          </div>
+          <div class="slide">
+            <div class="slider-stock">
+              <div class="slider-stock__title">Управляй по телефону</div>
+              <div class="slider-stock__item">GSM со скидкой 15%</div>
+            </div>
+            <img class="slider-stock__img" src="img-stock/sostoyanie.jpeg" alt="">
+          </div>
+          <div class="slide">
+            <div class="slider-stock">
+              <div class="slider-stock__title">Настройка автосигнализации</div>
+              <div class="slider-stock__item">Бесплатно при установке</div>
+            </div>
+            <img class="slider-stock__img" src="img-stock/Alarm.jpeg" alt="">
+          </div>
+          <div id="btn-prev"></div>
+          <div id="btn-next"></div>
+        </div>
+      </div>
+      <div class="dots-wrapper">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+  <!-- stock end -->
+
+  <!-- servise start -->
+  <main class="services">
+    <article class="container">
+      <h2 class="services__title">Наши услуги</h2>
+      <section class="accordion ">
+        <input type="radio" name="select" class="accordion-select" checked />
+        <h2 class="accordion-title"><span>Автосигнализация</span></h2>
+        <div class="accordion-content">
+          <ul class="services-content__title">
+            <li class="services-content__item">Установка сигнализации StarLine, Pandora, Prizrak, Sher-Khan</li>
+            <li class="services-content__item">Программирование системы автомобиля</li>
+            <li class="services-content__item">Ремонт пульта управления</li>
+            <li class="services-content__item">Восстановление работы автосигнализации</li>
+          </ul>
+          <div class="content">
+            <a href="#modal1" class="open_modal"><button id="btn_modal_window"
+                class="open-modal open-mobal__btn linkq"><span>Записаться</span>
+              </button></a>
+          </div>
+        </div>
+        <input type="radio" name="select" class="accordion-select" />
+        <h2 class="accordion-title"><span>Дополнительное оборудование</span></h2>
+        <div class="accordion-content">
+          <ul class="services-content__title">
+            <li class="services-content__item">Камера видеорегистрации передняя/задняя </li>
+            <li class="services-content__item">Противотуманные фары</li>
+            <li class="services-content__item">Автомузыка/автоакустика</li>
+            <li class="services-content__item">Антирадары</li>
+          </ul>
+          <div class="content">
+            <a href="#modal1" class="open_modal"><button id="btn_modal_window"
+                class="open-modal open-mobal__btn linkq"><span>Записаться</span>
+              </button></a>
+          </div>
+        </div>
+        <input type="radio" name="select" class="accordion-select" />
+        <h2 class="accordion-title"><span>Диагностика/Программирование</span></h2>
+        <div class="accordion-content">
+          <ul class="services-content__title">
+            <li class="services-content__item">Прошивка ЭБУ/чиптюнинг</li>
+            <li class="services-content__item">Диагностика осцилографом</li>
+            <li class="services-content__item">Поиск неисправных датчиков</li>
+            <li class="services-content__item">Диагностика режима работы</li>
+          </ul>
+          <div class="content">
+            <a href="#modal1" class="open_modal"><button id="btn_modal_window"
+                class="open-modal open-mobal__btn linkq"><span>Записаться</span>
+              </button></a>
+          </div>
+        </div>
+        <input type="radio" name="select" class="accordion-select" />
+        <h2 class="accordion-title"><span>Система автокондиционирования</span></h2>
+        <div class="accordion-content">
+          <ul class="services-content__title">
+            <li class="services-content__item">Заправка автокондиционера</li>
+            <li class="services-content__item">Ремонт и восстановление трубок АС</li>
+            <li class="services-content__item">Поиск неисправности электрики АС</li>
+            <li class="services-content__item">Дезинфекция автокондиционирования</li>
+          </ul>
+          <div class="content">
+            <a href="#modal1" class="open_modal"><button id="btn_modal_window"
+                class="open-modal open-mobal__btn linkq"><span>Записаться</span>
+              </button></a>
+          </div>
+        </div>
+        <input type="radio" name="select" class="accordion-select" />
+        <h2 class="accordion-title"><span>Дополнительные работы</span></h2>
+        <div class="accordion-content">
+          <ul class="services-content__title">
+            <li class="services-content__item">Промывка форсунок топлива</li>
+            <li class="services-content__item">Ремонт генеравторов/стартеров</li>
+            <li class="services-content__item">Аргонная сварка</li>
+            <li class="services-content__item">Замена радиаторов отопителя</li>
+          </ul>
+          <div class="content">
+            <a href="#modal1" class="open_modal"><button id="btn_modal_window"
+                class="open-modal open-mobal__btn linkq"><span>Записаться</span>
+              </button></a>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <!-- servise end -->
+  <!-- gallery start -->
+  <article class="gallery ">
+    <div class="container">
+      <h2 class="services__title gallery_title">Галерея</h2>
+      <div class="panels">
+        <a href="javascript:void(0)" class="panel">
+          <div class="panel__content"></div>
+        </a>
+        <a href="javascript:void(0)" class="panel">
+          <div class="panel__content"></div>
+        </a>
+        <a href="javascript:void(0)" class="panel">
+          <div class="panel__content"></div>
+        </a>
+        <a href="javascript:void(0)" class="panel">
+          <div class="panel__content"></div>
+        </a>
+        <a href="javascript:void(0)" class="panel">
+          <div class="panel__content"></div>
+        </a>
+        <a href="javascript:void(0)" class="panel">
+          <div class="panel__content"></div>
+        </a>
+        <a href="javascript:void(0)" class="panel">
+          <div class="panel__content"></div>
+        </a>
+      </div>
+    </div>
+  </article>
+  <!-- gallery end -->
+
+  <!-- footer start -->
+  <footer class="footer">
+    <section class="footer__content">
+      <div class="footer__map">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A09fec188ae5878e6796134ecef6add58f70bec0165873465a10dd8d38a6b65f5&amp;source=constructor"
+          width="100%" height="318" frameborder="0"></iframe>
+      </div>
+      <div class="footer__info container">
+        <div class="footer__info-inner">
+          <h3>Автосервис <br> на Батыршина</h3>
+          <div class="footer__info-list">
+            <ul class="footer__info-text">
+              <li> ул.Батыршина 28/1 <br>г.Казань</li>
+              <li>+7 995 095 57 90</li>
+              <li>uuuu@mail.com</li>
+            </ul>
+          </div>
+          <div class="footer__info-menu">
+            <ul class="footer__info-text">
+              <li>Главная</li>
+              <li>Услуги</li>
+              <li>Записаться</li>
+              <li>Галерея</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- footer end -->
+
+
+  <!-- feedback form start-->
+  <div id="modal1" class="modal_div">
+    <span class="modal_close">X</span>
+    <!-- mobal card inner start-->
+    <div class="card">
+      <div class="card-image">
+        <h2 class="card-heading">
+          Насладись качестивом
+          <small>Машина обслужена, Вы довольны</small>
+        </h2>
+      </div>
+      <form class="card-form">
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Сервис на Батыршина">
+        <input type="hidden" name="admin_email" value="4012411@gmail.com">
+        <input type="hidden" name="form_subject" value="Виды работ">
+        <!-- END Hidden Required Fields -->
+        <div class="input">
+          <input type="Name" class="input-field" value="name" required />
+          <label class="input-label">Имя</label>
+        </div>
+        <div class="input">
+          <input type="E-mail" class="input-field" value="mail@bu.ru" required />
+          <label class="input-label">Email</label>
+        </div>
+        <div class="input">
+          <input type="Phone" class="input-field" value="777" required />
+          <label class="input-label">Телефон</label>
+        </div>
+        <div class="action">
+          <button type="submit" class="action-button">Отправить</button>
+        </div>
+      </form>
+      <div class="card-info">
+        <p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+      </div>
+    </div>
+    <!-- moba card inner end-->
+  </div>
+  <div id="overlay"></div>
+  <!-- feedback form end-->
+
+
+
+
+
+  <!-- form end -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
